@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/simple-javascript-github-action@v1.1
+        uses: daint2git/simple-javascript-github-action@v1.1
         with:
           who-to-greet: "daidaidai"
       # Use the output from the `hello` step
