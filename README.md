@@ -27,4 +27,8 @@ yarn package
 git commit -m "xxx"
 git tag -a -m "My first action release" v1
 git push --follow-tags
+
+
+# delete git tag
+git tag -d v1.0
 ```
